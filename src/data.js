@@ -1,274 +1,309 @@
 // import images
-import LogoImg from '../src/assets/img/header/logo.svg';
-import HeroImg from '../src/assets/img/hero/image.svg';
-import OverviewProductImg from '../src/assets/img/overview/product.svg';
-import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
-import GoogleImg from '../src/assets/img/overview/brands/google.svg';
-import CocaColaImg from '../src/assets/img/overview/brands/coca-cola.svg';
-import LinkedInImg from '../src/assets/img/overview/brands/linkedin.svg';
-import SamsungImg from '../src/assets/img/overview/brands/samsung.svg';
-import Feature1Img from '../src/assets/img/features/feature1-img.svg';
-import Feature2Img from '../src/assets/img/features/feature2-img.svg';
-import Feature3Img from '../src/assets/img/features/feature3-img.svg';
-import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
-import CardIconImg1 from '../src/assets/img/product/cards/icon1.svg';
-import CardIconImg2 from '../src/assets/img/product/cards/icon2.svg';
-import CardIconImg3 from '../src/assets/img/product/cards/icon3.svg';
-import PricingIcon1 from '../src/assets/img/pricing/icon1.svg';
-import PricingIcon2 from '../src/assets/img/pricing/icon2.svg';
-import PricingIcon3 from '../src/assets/img/pricing/icon3.svg';
-import AvatarImg1 from '../src/assets/img/testimonial/avatar1.png';
-import AvatarImg2 from '../src/assets/img/testimonial/avatar2.png';
-import AvatarImg3 from '../src/assets/img/testimonial/avatar3.png';
-import AvatarImg4 from '../src/assets/img/testimonial/avatar4.png';
-import AvatarImg5 from '../src/assets/img/testimonial/avatar5.png';
-import CtaImg1 from '../src/assets/img/cta/image1.svg';
-import CtaImg2 from '../src/assets/img/cta/image2.svg';
-import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
-import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
-import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
+import LogoImg from '../src/img/header/logo.png';
+import AvatarImg1 from '../src/img/testimonial/avabasir.png';
+import AvatarImg2 from '../src/img/testimonial/avasandi.png';
+import AvatarImg3 from '../src/img/testimonial/avamimosa.png';
+import AvatarImg4 from '../src/img/testimonial/avasambal.png';
+import AvatarImgx1 from '../src/img/testimonial/avaisg.png';
+import AvatarImgx2 from '../src/img/testimonial/avafinnix.png';
+import AvatarImgx3 from '../src/img/testimonial/avaol.png';
+import AvatarImgx4 from '../src/img/testimonial/avajg.png';
+import HeroImg from '../src/img/hero/image.svg';
+// import AvatarImg5 from '../src/img/testimonial/avatar5.png';
+// import AvatarImg6 from '../src/img/testimonial/avatar6.png';
+import Feature1Img from '../src/img/features/sp1.png';
+import Feature2Img from '../src/img/features/sp2.png';
+import Feature3Img from '../src/img/features/sp3.png';
+import ArrowRightImg from '../src/img/features/arrow-right.svg';
+import PricingIcon1 from '../src/img/pricing/icon1.svg';
+import PricingIcon2 from '../src/img/pricing/icon2.svg';
+import PricingIcon3 from '../src/img/pricing/icon3.svg';
+import Porto1 from '../src/img/testimonial/porto1.png'
+import Porto2 from '../src/img/testimonial/porto2.png'
+import Porto3 from '../src/img/testimonial/porto3.png'
+import Porto4 from '../src/img/testimonial/porto4.png'
+import Portomp1 from '../src/img/testimonial/portomp1.png'
+import Portomp2 from '../src/img/testimonial/portomp2.png'
+import Portomp3 from '../src/img/testimonial/portomp3.png'
+import Portomp4 from '../src/img/testimonial/portomp4.png'
+import Portosm1 from '../src/img/testimonial/portosm1.png'
+import Portosm2 from '../src/img/testimonial/portosm2.png'
+import Portosm3 from '../src/img/testimonial/portosm3.png'
+import Portosm4 from '../src/img/testimonial/portosm4.png'
+import CtaImg1 from '../src/img/cta/image1.svg';
+import CtaImg2 from '../src/img/cta/image2.svg';
+import FacebookIcon from '../src/img/copyright/facebook.svg';
+import TwitterIcon from '../src/img/copyright/twitter.svg';
+import LinkedinIcon from '../src/img/copyright/linkedin.svg';
 
 export const header = {
   logo: LogoImg,
-  btnText: 'Request a demo',
+  btnText: 'Hubungi kami',
 };
 
 export const nav = [
-  { name: 'Features', href: '/' },
-  { name: 'About us', href: '/' },
-  { name: 'Pricing', href: '/' },
-  { name: 'Feedback', href: '/' },
+  { name: 'Tentang Kami', href: '#kami' },
+  { name: 'Pilihan Paket', href: '#priced' },
+  { name: 'Portfolio', href: '#portfolio' },
+  { name: 'Workshop', href: '#located' },
 ];
 
 export const hero = {
-  title: 'Track your Expenses to Save Money',
-  subtitle: 'Helps you to organize your income and expenses',
-  btnText: 'Try free demo',
-  compText: '— Web, iOS and Android',
+  title: 'Ayo buat brand kamu menarik !!!',
+  subtitle: 'Kami siap membangun brand kamu lebih menarik dan proffesional',
+  btnText: 'Hubungi kami',
+  // compText: '— Web, iOS and Android',
   image: HeroImg,
-};
-
-export const overview = {
-  productImg: OverviewProductImg,
-  brands: [
-    {
-      image: FacebookImg,
-      delay: 300,
-    },
-    {
-      image: GoogleImg,
-      delay: 400,
-    },
-    {
-      image: CocaColaImg,
-      delay: 500,
-    },
-    {
-      image: LinkedInImg,
-      delay: 600,
-    },
-    {
-      image: SamsungImg,
-      delay: 700,
-    },
-  ],
 };
 
 export const features = {
   feature1: {
-    pretitle: 'Alwalys online',
-    title: 'Real-time support with cloud',
+    pretitle: 'Grow up your business',
+    title: 'Company Branding',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-    btnLink: 'Learn more',
+      'Memahami pasar untuk menciptakan merek yang relevan dan memenuhi kebutuhan target audiens Kamu.',
+    btnLink: 'Portfolio Kami',
     btnIcon: ArrowRightImg,
     image: Feature1Img,
   },
   feature2: {
-    pretitle: 'Free some cost',
-    title: 'Save cost for you and family',
+    pretitle: 'Boost Your Social Media',
+    title: 'Social Media Optimization',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-    btnLink: 'Learn more',
+      'Memahami dengan mendalam siapa target audiens Kamu dan membuat konten yang sesuai dengan kebutuhan mereka.',
+    btnLink: 'Portfolio kami',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
   feature3: {
-    pretitle: 'Use anytime',
-    title: 'Use anytime when you need',
+    pretitle: 'Boost Your Business Product',
+    title: 'Ecommerce Specialist',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-    btnLink: 'Learn more',
+      'Kami tidak hanya mendesain, kami mengoptimalkan setiap elemen berdasarkan analisis data yang mendalam.',
+    btnLink: 'Portfolio kami',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
   },
 };
 
-export const product = {
-  title: 'The Product we work with.',
-  subtitle:
-    'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
-  cards: [
-    {
-      icon: CardIconImg1,
-      title: 'Cross platform',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
-      delay: 200,
-    },
-    {
-      icon: CardIconImg2,
-      title: 'Cloud server',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
-      delay: 400,
-    },
-    {
-      icon: CardIconImg3,
-      title: 'Pure Javascript',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
-      delay: 600,
-    },
-  ],
-};
-
 export const pricing = {
-  title: 'Choose your flexible plan.',
+  title: 'Pilih Paket Untuk Bisnismu',
   cards: [
     {
       icon: PricingIcon1,
-      title: 'Starter Plan',
+      title: 'Silver Pack',
       services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
+        { name: '12 Desain Konten' },
+        { name: '1x Revisi' },
+        { name: 'Ide & Konsep Konten' },
       ],
-      price: '$9.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      price: 'Rp 629.000',
+      userAmount: 'Direkomedasikan untuk usaha kecil atau baru merintis',
+      btnText: 'Pesan Sekarang',
       delay: 300,
     },
     {
       icon: PricingIcon2,
-      title: 'Silver Plan',
+      title: 'Gold Pack',
       services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
+        { name: '24 Desain Konten' },
+        { name: '2x Revisi' },
+        { name: 'Copywriting' },
       ],
-      price: '$19.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      price: 'Rp 1.229.000',
+      userAmount: 'Direkomedasikan untuk online shop dan usaha kecil menengah',
+      btnText: 'Pesan Sekarang',
       delay: 600,
     },
     {
       icon: PricingIcon3,
-      title: 'Diamond Plan',
+      title: 'Diamond Pack',
       services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
+        { name: '45 Desain Konten' },
+        { name: 'Unlimited Revisi' },
+        { name: 'Website Desain' },
       ],
-      price: '$29.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      price: 'Rp 3.429.000',
+      userAmount: 'Direkomedasikan untuk online shop besar dan perusahaan',
+      btnText: 'Pesan Sekarang',
       delay: 900,
     },
   ],
 };
 
 export const testimonials = {
-  title: 'We have millions of best wishers',
+  title: 'Portfolio',
   clients: [
     {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+    //   message:
+    //     'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      imgporto: Porto1,
       image: AvatarImg1,
-      name: 'Cameron Williamson',
-      position: 'CEO',
-      borderColor: '#FF7235',
+      name: 'Abdul Basyir',
+      // position: '( Leader )',
+        borderColor: '#0052A3',
     },
     {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      //   message:
+      //     'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      imgporto: Porto2,
       image: AvatarImg2,
-      name: 'Shirley Hand',
-      position: 'CEO',
-      borderColor: '#FFBE21',
+      name: 'Bpk. Sandi Prabowo',
+      // position: 'CEO',
+      borderColor: '#0052A3',
     },
     {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      //   message:
+      //     'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      imgporto: Porto3,
       image: AvatarImg3,
-      name: 'Dr. Olivia Hansen',
-      position: 'CEO',
-      borderColor: '#4756DF',
+      name: 'Bpk. Wahyu',
+      // position: 'CEO',
+      borderColor: '#0052A3',
     },
     {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      //   message:
+      //     'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      imgporto: Porto4,
       image: AvatarImg4,
-      name: 'Aubrey Sanford',
-      position: 'CEO',
-      borderColor: '#3EC1F3',
+      name: 'Ibu.Aling',
+      // position: 'CEO',
+      borderColor: '#0052A3',
+    },
+    // {
+    //   message:
+    //     'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      // image: AvatarImg5,
+      // name: 'Terri Conroy',
+      // position: 'CEO',
+    //   borderColor: '#BB7259',
+    // },
+    // {
+    //   message:
+    //     'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      // image: AvatarImg6,
+      // name: 'TET Conroy',
+      // position: 'CEO',
+    //   borderColor: '#BB7259',
+    // },
+  ],
+};
+  
+export const testimonials2 = {
+  clients: [
+    {
+      imgporto: Portosm1,
+      image: AvatarImgx1,
+      name: 'Inovtek Sentra Global',
+        borderColor: '#0052A3',
     },
     {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
-      image: AvatarImg5,
-      name: 'Terri Conroy',
-      position: 'CEO',
-      borderColor: '#BB7259',
+      imgporto: Portosm2,
+      image: AvatarImgx2,
+      name: 'Finnix Store',
+      borderColor: '#0052A3',
+    },
+    {
+      imgporto: Portosm3,
+      image: AvatarImgx2,
+      name: 'Finnix Store',
+      borderColor: '#0052A3',
+    },
+    {
+      imgporto: Portosm4,
+      image: AvatarImgx1,
+      name: 'Inovtek Sentra Global',
+      borderColor: '#0052A3',
+    },
+  ],
+};
+
+export const testimonials3 = {
+  clients: [
+    {
+      imgporto: Portomp1,
+      image: AvatarImgx1,
+      name: 'Inovtek Sentra Global',
+      // position: '( Leader )',
+        borderColor: '#0052A3',
+    },
+    {
+      imgporto: Portomp2,
+      image: AvatarImgx2,
+      name: 'Finnix Store',
+      // position: 'CEO',
+      borderColor: '#0052A3',
+    },
+    {
+      imgporto: Portomp3,
+      image: AvatarImgx3,
+      name: 'Oriloka Shop',
+      // position: 'CEO',
+      borderColor: '#0052A3',
+    },
+    {
+      imgporto: Portomp4,
+      image: AvatarImgx4,
+      name: 'Jualan Gadgets',
+      // position: 'CEO',
+      borderColor: '#0052A3',
     },
   ],
 };
 
 export const cta = {
-  title: '20M+ downloaded from 32 different countries',
-  subtitle: 'Try demo for 7 days with full features.',
-  btnText: 'Try free demo',
+  title: 'Butuh jasa Foto & Video produk?',
+  subtitle: 'Kami juga menyediakan jasanya loh',
+  btnText: 'Tanya jasa foto',
   img1: CtaImg1,
   img2: CtaImg2,
 };
 
 export const footer = {
   logo: LogoImg,
-  links: [
-    { name: 'Home', href: '/' },
-    { name: 'About us', href: '/' },
-    { name: 'Careers', href: '/' },
-    { name: 'Pricing', href: '/' },
-    { name: 'Features', href: '/' },
-    { name: 'Blog', href: '/' },
-  ],
+  // links: [
+  //   { name: 'Home', href: '/' },
+  //   { name: 'About us', href: '/' },
+  //   { name: 'Careers', href: '/' },
+  //   { name: 'Pricing', href: '/' },
+  //   { name: 'Features', href: '/' },
+  //   { name: 'Blog', href: '/' },
+  // ],
   legal: [
-    { name: 'Terms of use', href: '/' },
-    { name: 'Terms of conditions', href: '/' },
-    { name: 'Privacy policy', href: '/' },
-    { name: 'Cookie policy', href: '/' },
+    { name: 'Terms of use'},
+    { name: 'Terms of conditions'},
+    { name: 'Privacy policy'},
+    { name: 'Cookie policy'},
   ],
   newsletter: {
-    title: 'Newsletter',
-    subtitle: 'Over 25000 people have subscribed',
+    title: 'Feedback',
+    subtitle: '1.500 Orang sudah memberi masukan pada Kami',
   },
   form: {
-    placeholder: 'Enter your email',
-    btnText: 'Subscribe',
-    smallText: 'We don’t sell your email and spam',
+    placeholder: 'Beri Masukan Anda',
+    btnText: 'Kirim',
+    smallText: 'Harap jangan mengirim email spam',
   },
 };
 
 export const copyright = {
   link1: {
     name: 'Privacy & Terms',
-    href: '/',
+    // href: '/',
   },
+  // link2: {
+  //   name: 'Contact us',
+  //   href: 'https://wa.me/62895802377770?text=Hallo,%20Reza', '_blank',
+  // },
   link2: {
     name: 'Contact us',
-    href: '/',
+    href: 'https://wa.me/62895802377770?text=Hallo,%20Reza',
+    target: '_blank',
   },
-  copyText: 'Copyright @ 2022 xpence',
+  copyText: 'Copyright @ 2024 Republik Project',
   social: [
-    { icon: FacebookIcon, href: '/' },
-    { icon: TwitterIcon, href: '/' },
-    { icon: LinkedinIcon, href: '/' },
+    { icon: FacebookIcon,},
+    { icon: TwitterIcon,},
+    { icon: LinkedinIcon,},
   ],
 };

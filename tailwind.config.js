@@ -11,6 +11,7 @@ module.exports = {
       },
     },
     screens: {
+      m: '320px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
@@ -20,13 +21,14 @@ module.exports = {
       colors: {
         dark: '#292830',
         light: '#BDBDBD',
-        accent: '#FF7235',
-        accentHover: '#e05216',
+        accent: '#0052A3',
+        accentHover: '#00376',
         grey: '#F5F5F5',
+        bg1: '#E1E1E1',
       },
       backgroundImage: {
-        overview: "url('/src/assets/img/overview/bg.svg')",
-        cta: "url('/src/assets/img/cta/bg.svg')",
+        overview: "url('../src/img/overview/bg1.png')",
+        cta: "url('../src/img/overview/bg1.png')",
       },
     },
   },

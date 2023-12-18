@@ -1,7 +1,34 @@
 import React from 'react';
+// import data
+import bg from '../img/overview/bg1.png'
+import cta from '../img/overview/cta2.png'
 
 const Overview = () => {
-  return <div>Overview</div>;
+  return (
+    <div className='py-[4rem]'>
+        <img className='flex absolute justify-center items-center mx-auto w-full' 
+        data-aos='fade-up'
+        data-aos-offset='300'
+        src={bg} alt='' />
+
+        <img id='kami' className='flex relative justify-center items-center mx-auto w-50% pt-[4.85rem]' 
+        data-aos='fade-up'
+        data-aos-offset='500'
+        src={cta} alt='' />
+        
+        <div className='lead'
+        data-aos='fade-up'
+        data-aos-offset='550'>
+        <p className='px-[2rem] py-[2rem] text-center  font-semibold italic'>
+          " Kami adalah tim kreatif yang tidak hanya bekerja bersama, 
+          tetapi juga bercita-cita bersama. Kami adalah cermin 
+          dari visi yang kami buat, dan setiap langkah adalah 
+          bagian dari kreativitas. Mari bersama-sama menghadirkan sisi 
+          keindahan, inovasi, dan inspirasi melalui setiap jejak langkah 
+          kreatif kami. "</p>
+        </div>
+  </div>
+  )
 };
 
 export default Overview;
