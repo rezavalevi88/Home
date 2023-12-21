@@ -42,7 +42,7 @@ export const header = {
 };
 
 export const nav = [
-  { name: 'Tentang Kami', href: '#kami' },
+  { name: 'Tentang Kami (ya)', href: '#kami' },
   { name: 'Pilihan Paket', href: '#priced' },
   { name: 'Portfolio', href: '#portfolio' },
   { name: 'Workshop', href: '#located' },
@@ -51,7 +51,7 @@ export const nav = [
 export const hero = {
   title: 'Ayo buat brand kamu menarik !!!',
   subtitle: 'Kami siap membangun brand kamu lebih menarik dan proffesional',
-  btnText: 'Hubungi kami',
+  btnText: 'Hubungi kami di',
   // compText: '— Web, iOS and Android',
   image: HeroImg,
 };

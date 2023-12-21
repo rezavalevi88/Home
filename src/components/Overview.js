@@ -6,7 +6,7 @@ import cta from '../img/overview/cta2.png'
 const Overview = () => {
   return (
     <div className='py-[4rem]'>
-        <img className='flex absolute justify-center items-center mx-auto w-full' 
+        <img className='max-h-[44rem] flex absolute justify-center items-center mx-auto w-full' 
         data-aos='fade-up'
         data-aos-offset='300'
         src={bg} alt='' />
@@ -16,16 +16,16 @@ const Overview = () => {
         data-aos-offset='500'
         src={cta} alt='' />
         
-        <div className='lead'
+        <div className='lead flex justify-center items-center text-center'
         data-aos='fade-up'
         data-aos-offset='550'>
-        <p className='px-[2rem] py-[2rem] text-center  font-semibold italic'>
+        <p className='max-w-[18rem] px-[2rem] py-[2rem] font-semibold italic'>
           " Kami adalah tim kreatif yang tidak hanya bekerja bersama, 
           tetapi juga bercita-cita bersama. Kami adalah cermin 
           dari visi yang kami buat, dan setiap langkah adalah 
           bagian dari kreativitas. Mari bersama-sama menghadirkan sisi 
           keindahan, inovasi, dan inspirasi melalui setiap jejak langkah 
-          kreatif kami. "</p>
+          kreatif kami. Diamond "</p>
         </div>
   </div>
   )

@@ -17,7 +17,7 @@ const Footer = () => {
       {/* logo */}
         <div 
         data-aos='fade-up'
-        data-aos-offset='900'
+        // data-aos-offset='900'
         data-aos-delay='500'>
           <img id='located' className='w-[9.25rem]' src={logo} alt='' />
           <p className='mt-[2rem] max-w-[25rem]'>
@@ -54,7 +54,7 @@ const Footer = () => {
         {/* list 2 */}
         <div 
         data-aos='fade-up'
-        data-aos-offset='900'
+        // data-aos-offset='900'
         data-aos-delay='700'>
           <div 
           className='text-2xl uppercase font-medium mb-6'>
@@ -78,7 +78,7 @@ const Footer = () => {
         {/* newsletter */}
         <div 
         data-aos='fade-up'
-        data-aos-offset='900'
+        // data-aos-offset='900'
         data-aos-delay='900'>
           <div 
           className='text-2xl uppercase font-medium mb-6'>
@@ -106,7 +106,7 @@ const Footer = () => {
         <hr 
         className='mt-10 mb-5'
         data-aos='fade-up'
-        data-aos-offset='900'
+        // data-aos-offset='900'
         data-aos-delay='1100'
         />
         <Copyright />
